@@ -1,6 +1,7 @@
+
 /*
-     File: main.m
- Abstract: Main source file for this sample.
+     File: Product.m
+ Abstract: Simple class to represent a product, with a product type and name.
   Version: 1.3
  
  Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple
@@ -45,12 +46,27 @@
  
  */
 
-#import <UIKit/UIKit.h>
+#import "Product.h"
 
-int main(int argc, char *argv[])
+@implementation Product
+
+@synthesize type, name;
+
+
++ (id)productWithType:(NSString *)type name:(NSString *)name
 {
-    NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
-    int retVal = UIApplicationMain(argc, argv, nil, nil);
-    [pool release];
-    return retVal;
+	Product *newProduct = [[[self alloc] init] autorelease];
+	newProduct.type = type;
+	newProduct.name = name;
+	return newProduct;
 }
+
+
+- (void)dealloc
+{
+	[type release];
+	[name release];
+	[super dealloc];
+}
+
+@end
