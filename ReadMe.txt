@@ -12,11 +12,11 @@ It shows how you can:
 
 
 Build Requirements
-Mac OS X 10.5.6 or later, Xcode 3.1, iPhone SDK 3.0
+iPhone SDK 3.0 or later.
 
 
 Runtime Requirements
-Mac OS X 10.5.6 or later, iPhone SDK 3.0
+iPhone OS 3.0 or later.
 
 
 Using the Sample
@@ -31,10 +31,11 @@ main.m - Main source file for this sample.
 
 
 Changes from Previous Versions
+1.4 - Fixed problem with saving state during low memory warnings.
 1.3 - Updated UISearchBar and UISearchDisplayController as nib objects.
 1.2 - Upgraded to use UISearchDisplayController and iPhone OS 3.0.
 1.1 - Minor user interface upgrades, no longer using UINavigationController; UISearchBar takes it's place.
 1.0 - Updated for and tested with iPhone OS 2.0. First public release.
 
 
-Copyright (C) 2008-2009 Apple Inc. All rights reserved.
+Copyright (C) 2008-2010 Apple Inc. All rights reserved.
