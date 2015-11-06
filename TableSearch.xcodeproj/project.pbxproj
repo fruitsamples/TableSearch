@@ -16,6 +16,11 @@
 		539103140F8BDD8500ED14FA /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 539103120F8BDD8500ED14FA /* MainView.xib */; };
 		539168B00DCFA64400D8C6CB /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 539168AE0DCFA64400D8C6CB /* MainWindow.xib */; };
 		53A66D3F0E0842EF009C8489 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A66D3E0E0842EF009C8489 /* CoreGraphics.framework */; };
+		7E3705A711CAC39100F5DB11 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3705A211CAC39100F5DB11 /* Icon-Small.png */; };
+		7E3705A811CAC39100F5DB11 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3705A311CAC39100F5DB11 /* Icon-Small@2x.png */; };
+		7E3705A911CAC39100F5DB11 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3705A411CAC39100F5DB11 /* Icon.png */; };
+		7E3705AA11CAC39100F5DB11 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3705A511CAC39100F5DB11 /* Icon@2x.png */; };
+		7E3705AB11CAC39100F5DB11 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3705A611CAC39100F5DB11 /* iTunesArtwork.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +39,11 @@
 		539168AF0DCFA64400D8C6CB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		53A66D3E0E0842EF009C8489 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		53FEEEAE0DCFAC0A004B8231 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+		7E3705A211CAC39100F5DB11 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "Images/Icon-Small.png"; sourceTree = "<group>"; };
+		7E3705A311CAC39100F5DB11 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "Images/Icon-Small@2x.png"; sourceTree = "<group>"; };
+		7E3705A411CAC39100F5DB11 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Images/Icon.png; sourceTree = "<group>"; };
+		7E3705A511CAC39100F5DB11 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Images/Icon@2x.png"; sourceTree = "<group>"; };
+		7E3705A611CAC39100F5DB11 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iTunesArtwork.png; path = Images/iTunesArtwork.png; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,6 +109,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				7E3704FC11CAA35A00F5DB11 /* Images */,
 				539168AE0DCFA64400D8C6CB /* MainWindow.xib */,
 				539103120F8BDD8500ED14FA /* MainView.xib */,
 				8D1107310486CEB800E47090 /* Info.plist */,
@@ -112,6 +123,18 @@
 				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E3704FC11CAA35A00F5DB11 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7E3705A211CAC39100F5DB11 /* Icon-Small.png */,
+				7E3705A311CAC39100F5DB11 /* Icon-Small@2x.png */,
+				7E3705A411CAC39100F5DB11 /* Icon.png */,
+				7E3705A511CAC39100F5DB11 /* Icon@2x.png */,
+				7E3705A611CAC39100F5DB11 /* iTunesArtwork.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +188,11 @@
 			files = (
 				539168B00DCFA64400D8C6CB /* MainWindow.xib in Resources */,
 				539103140F8BDD8500ED14FA /* MainView.xib in Resources */,
+				7E3705A711CAC39100F5DB11 /* Icon-Small.png in Resources */,
+				7E3705A811CAC39100F5DB11 /* Icon-Small@2x.png in Resources */,
+				7E3705A911CAC39100F5DB11 /* Icon.png in Resources */,
+				7E3705AA11CAC39100F5DB11 /* Icon@2x.png in Resources */,
+				7E3705AB11CAC39100F5DB11 /* iTunesArtwork.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +248,7 @@
 				INSTALL_PATH = /Applications;
 				PREBINDING = NO;
 				PRODUCT_NAME = TableSearch;
-				SDKROOT = iphoneos3.0;
+				SDKROOT = iphoneos4.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -239,7 +267,7 @@
 				INSTALL_PATH = /Applications;
 				PREBINDING = NO;
 				PRODUCT_NAME = TableSearch;
-				SDKROOT = iphoneos3.0;
+				SDKROOT = iphoneos4.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -253,7 +281,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
-				SDKROOT = iphoneos3.0;
+				SDKROOT = iphoneos4.0;
 			};
 			name = Debug;
 		};
@@ -265,7 +293,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = iphoneos3.0;
+				SDKROOT = iphoneos4.0;
 			};
 			name = Release;
 		};

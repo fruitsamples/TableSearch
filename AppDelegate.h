@@ -1,7 +1,7 @@
 /*
      File: AppDelegate.h
  Abstract: The application delegate used to configure the navigation controller.
-  Version: 1.4
+  Version: 1.5
  
  Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple
  Inc. ("Apple") in consideration of your agreement to the following

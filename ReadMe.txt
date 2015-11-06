@@ -12,11 +12,11 @@ It shows how you can:
 
 
 Build Requirements
-iPhone SDK 3.0 or later.
+iOS SDK 4.0.
 
 
 Runtime Requirements
-iPhone OS 3.0 or later.
+iOS 4.0.
 
 
 Using the Sample
@@ -31,6 +31,7 @@ main.m - Main source file for this sample.
 
 
 Changes from Previous Versions
+1.5 - Upgraded project to build with the iOS 4 SDK.
 1.4 - Fixed problem with saving state during low memory warnings.
 1.3 - Updated UISearchBar and UISearchDisplayController as nib objects.
 1.2 - Upgraded to use UISearchDisplayController and iPhone OS 3.0.
